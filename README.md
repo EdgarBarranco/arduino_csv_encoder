@@ -1,5 +1,4 @@
 # arduino_csv_encoder
-This code is meant to encode 2 of the following chars '0 1 2 3 4 5 6 7 8 9  ,  . " - :'  (8 bits) into 1 uint8_t for lora transmission.
 
 This code is to demonstrate how to encode two 15 different chars (8 bits) into one uint8_t. 
 For example this code encode two of the following chars: 0 1 2 3 4 5 6 7 8 9 , . " - : into one uint8_t to reduce in half the size of a data string to transmit over a Lora module RFH95.
